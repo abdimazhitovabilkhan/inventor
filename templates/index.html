@@ -7,8 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Hello user_name</h2>
-    <div>This page is template</div>
+    
+    <form action="/add/" method="POST">
+        <input type="text" name="good">
+        <button>Добавить</button>
+    </form>
     <ol>
         {%for good in goods%}
             <li> {{good}} </li>
