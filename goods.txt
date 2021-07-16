@@ -1,4 +1,3 @@
-Mouse
-Flask
-Kaum 
-hello meat
+python
+c++
+ангуляр
